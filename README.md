@@ -1,6 +1,8 @@
 # YiBitcoin Core [YTC]
 ==========================
-![YiBitcoin](https://github.com/yibitcoin/yibitcoin/blob/master/share/pixmaps/bitcoin256.png)
+
+#[YiBitcoin](https://github.com/yibitcoin/yibitcoin/blob/master/share/pixmaps/bitcoin256.png)
+
 ## What is YiBitcoin? – Such coin
 YiBitcoin is a cryptocurrency like Bitcoin, although it does not use SHA256 as its proof of work (POW). Taking development cues from Tenebrix and Litecoin, YiBitcoin currently employs a simplified variant of scrypt.
 
