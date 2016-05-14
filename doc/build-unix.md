@@ -221,16 +221,3 @@ In this case there is no dependency on Berkeley DB 4.8.
 
 Mining is also possible in disable-wallet mode, but only using the `getblocktemplate` RPC
 call, not `getwork`.
-
-#static
-./configure --with-gui=qt5 --with-libs=no --with-libressl=yes --enable-upnp-default --disable-tests --with-qt-incdir=/f/deps/qtbase-opensource-src-5.2.1/include --with-qt-libdir=/f/deps/qtbase-opensource-src-5.2.1/lib --with-qt-bindir=/f/deps/qtbase-opensource-src-5.2.1/bin --with-qt-plugindir=/f/deps/qtbase-opensource-src-5.2.1/plugins --with-boost-system=mgw48-mt-s-1_55 --with-boost-filesystem=mgw48-mt-s-1_55 --with-boost-program-options=mgw48-mt-s-1_55 --with-boost-thread=mgw48-mt-s-1_55 --with-boost-chrono=mgw48-mt-s-1_55 --with-protoc-bindir=/f/deps/protobuf-2.5.0/src  CPPFLAGS="-I/f/yibitcoin/db5/include/ -I/f/deps/openssl-1.0.1l/include -I/f/deps -I/f/deps/protobuf-2.5.0/src -I/f/deps/libpng-1.6.10 -I/f/deps/qrencode-3.4.3" LDFLAGS="-L/f/deps/boost_1_55_0/stage/lib -L/f/yibitcoin/db5/lib/ -L/f/deps/openssl-1.0.1l -L/f/deps/miniupnpc -L/f/deps/protobuf-2.5.0/src/.libs -L/f/deps/libpng-1.6.10/.libs -L/f/deps/qrencode-3.4.3/.libs" 
-
-
-openssl 32bit
-CROSS_COMPILE="i686-w64-mingw32-" ./Configure mingw no-asm no-shared --prefix=/opt/mingw32
-
-openssl 64bit
-./Configure mingw64 no-asm no-shared --prefix=/opt/mingw64
-
- LDFLAGS="-L/mnt/coin/yibitcoin/db5/lib/" CPPFLAGS="-I/mnt/coin/yibitcoin/db5/include/"
- 
