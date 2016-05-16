@@ -18,14 +18,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Firstlycoin"
-            VALUE "FileDescription",    "Firstlycoin Core (GUI node for Firstlycoin)"
+            VALUE "CompanyName",        "YiBitcoin"
+            VALUE "FileDescription",    "YiBitcoin Core (GUI node for YiBitcoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "firstlycoin-qt"
+            VALUE "InternalName",       "yibitcoin-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "firstlycoin-qt.exe"
-            VALUE "ProductName",        "Firstlycoin Core"
+            VALUE "OriginalFilename",   "yibitcoin-qt.exe"
+            VALUE "ProductName",        "YiBitcoin Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

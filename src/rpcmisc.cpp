@@ -336,11 +336,11 @@ Value verifymessage(const Array& params, bool fHelp)
             "\nUnlock the wallet for 30 seconds\n"
             + HelpExampleCli("walletpassphrase", "\"mypassphrase\" 30") +
             "\nCreate the signature\n"
-            + HelpExampleCli("signmessage", "\"DH9fPpKHLiP5eaAD3pXxxUZmPktGNGTFp6\" \"my message\"") +
+            + HelpExampleCli("signmessage", "\"YdpejGX1DonBtixhsqMLLtf98qKVrNBuM4\" \"my message\"") +
             "\nVerify the signature\n"
-            + HelpExampleCli("verifymessage", "\"DH9fPpKHLiP5eaAD3pXxxUZmPktGNGTFp6\" \"signature\" \"my message\"") +
+            + HelpExampleCli("verifymessage", "\"YdpejGX1DonBtixhsqMLLtf98qKVrNBuM4\" \"signature\" \"my message\"") +
             "\nAs json rpc\n"
-            + HelpExampleRpc("verifymessage", "\"DH9fPpKHLiP5eaAD3pXxxUZmPktGNGTFp6\", \"signature\", \"my message\"")
+            + HelpExampleRpc("verifymessage", "\"YdpejGX1DonBtixhsqMLLtf98qKVrNBuM4\", \"signature\", \"my message\"")
         );
 
     LOCK(cs_main);

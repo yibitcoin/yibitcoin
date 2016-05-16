@@ -37,6 +37,9 @@
 #include <boost/math/distributions/poisson.hpp>
 #include <boost/thread.hpp>
 
+//#pragma comment(lib, "libeay32.a")
+//#pragma comment(lib, "ssleay32.a")
+
 using namespace std;
 
 #if defined(NDEBUG)
